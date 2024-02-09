@@ -69,7 +69,7 @@ def fig_map (df):
 
                      )
     annotations = [dict(
-        x=0.75,
+        x=0.8,
         y=0.48,
         xref='paper',
         yref='paper',
@@ -156,7 +156,7 @@ dbc.Row([
         ),
 
 
-        dbc.Col(id='my-graph-container',width={'size':3,'offset':-1,'order':2}
+        dbc.Col(id='my-graph-container',width={'size':3,'offset':1,'order':2}
 
                 #style={'width': '15%' ,  'display': 'inline-block'}
                 )
