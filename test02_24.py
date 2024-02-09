@@ -156,7 +156,7 @@ dbc.Row([
         ),
 
 
-        dbc.Col(id='my-graph-container',width={'size':3,'offset':1,'order':2}
+        dbc.Col(id='my-graph-container',width={'size':3,'offset':0,'order':2}
 
                 #style={'width': '15%' ,  'display': 'inline-block'}
                 )
